@@ -8,10 +8,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="ezOverLay">
-      <HintPath>..\..\..\ezOverLay.dll-master\ezOverLay\bin\Debug\ezOverLay.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

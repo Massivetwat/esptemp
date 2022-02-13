@@ -20,6 +20,7 @@ namespace esptemp
             swed swed = new swed();
             ez.SetInvi(this);
             ez.DoStuff("Counter-Strike: Global Offensive - Direct3D 9", this);
+           // ez.StartLoop(10, "Counter-Strike: Global Offensive - Direct3D 9", this);
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -27,6 +28,7 @@ namespace esptemp
             var enemypen = new Pen(Color.Red, 3);
             Graphics graphics = e.Graphics;
             graphics.DrawLine(enemypen, Width / 2, Height, Width / 2, Height / 2);
+            graphics.DrawLine(enemypen,0,0, Width / 2,Height / 2);
         }
     }
 }
